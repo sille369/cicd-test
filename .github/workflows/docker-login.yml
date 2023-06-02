@@ -3,7 +3,7 @@ on: push
 jobs:
   build-container:
     name: Build container
-    runs-on: cicd-test
+    runs-on: ubuntu-latest
     
     steps:
       - name: checkout code
